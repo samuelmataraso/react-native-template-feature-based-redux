@@ -22,7 +22,7 @@ const FileName = styled.Text`
 
 const Logo = styled.Image`
 	height: ${Metrics.size(170)}px;
-	width: ${Metrics.size(150)}px;
+	width: ${Metrics.size(200)}px;
 	margin-top: ${Metrics.size(100)};
 	margin-bottom: ${Metrics.size(100)};
 	background: black;
@@ -53,7 +53,7 @@ const UserScreen = () => (
 		<Welcome>Bem-vindo ao Template!</Welcome>
 		<Instructions>Essa é a tela principal da sua aplicação ;D</Instructions>
 		<Instructions>Você pode editar a tela no arquivo:</Instructions>
-		<FileName>src/user/view/screens/UserScreen.js</FileName>
+		<FileName>src/modules/user/screens/UserScreen/index.js</FileName>
 	</Container>
 );
 
