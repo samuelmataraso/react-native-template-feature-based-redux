@@ -50,7 +50,7 @@ const UserScreen = () => (
 				uri: 'https://i.imgur.com/vD9SG4x.png',
 			}}
 		/>
-		<Welcome>Bem-vindo ao Template!</Welcome>
+		<Welcome>Bem-vindo ao Template Redux!</Welcome>
 		<Instructions>Essa é a tela principal da sua aplicação ;D</Instructions>
 		<Instructions>Você pode editar a tela no arquivo:</Instructions>
 		<FileName>src/modules/user/screens/UserScreen/index.js</FileName>
